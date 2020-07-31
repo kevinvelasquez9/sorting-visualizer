@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+</head>
+<body>
+    <h1 class="mx-auto text-center mt-4">
+        Sorting Visualizer
+    </h1>
+
+    <ul class="nav bg-light fixed-bottom nav-pills justify-content-center py-1">
+
+        <li class="nav-item">
+          <a class="nav-link sort" href="#">Bubble</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sort" href="#">Insertion</a>
+        </li>
+        <li class="nav-item generate">
+            <a class="nav-link font-weight-bold ml-5" href="#">Generate!</a>
+        </li>
+    </ul>
+
+    <div class="container w-75 d-flex justify-content-around align-items-end" style="height: 84vh;">
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="bubble.js"></script>
+    <script src="insertion.js"></script>
+</body>
+</html>
